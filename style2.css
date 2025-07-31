@@ -214,7 +214,11 @@ footer {
 
 
 /* Tab view */
-
+@media screen and (min-width: 1200px){
+    .hero1img{
+        height: 300px;
+    }
+}
 /* Mobile Responsive Styles */
 @media screen and (max-width: 750px) {
     nav {
@@ -250,7 +254,7 @@ footer {
         margin: 0 auto;
     }
     .hero1img {
-        height: 140px;
+        height: 160px;
         padding-right: 0;
         margin: 0 auto;
     }
@@ -333,10 +337,5 @@ footer {
     .desk_foot {
         width: 100%;
         padding-top: 20px;
-    }
-}
-@media screen and (max-width: 1200px){
-    .hero1img{
-        height: 300px;
     }
 }

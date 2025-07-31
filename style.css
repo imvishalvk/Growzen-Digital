@@ -75,6 +75,7 @@ nav {
 
 .box1_text {
     padding: 40px 30px 20px 80px;
+    
 }
 
 .checks {
@@ -204,9 +205,14 @@ footer {
 
 
 /* Tab view */
-
+@media screen and (max-width: 1200px){
+    .hero1img{
+        width: 70%;
+        height: auto;
+    }
+}
 /* Mobile Responsive Styles */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
     nav {
         flex-direction: column;
         align-items: center;
@@ -240,7 +246,8 @@ footer {
         margin: 0 auto;
     }
     .hero1img {
-        height: 160px;
+        width: 70%;
+        height: auto;
         padding-right: 0;
         margin: 0 auto;
     }
@@ -257,7 +264,7 @@ footer {
     }
     .box1_text {
         padding: 20px 10px 10px 10px;
-        font-size: 16px;
+        font-size: 24px;
     }
     .offer {
         flex-direction: column;
@@ -271,7 +278,7 @@ footer {
         width: 50px;
     }
     .offer_text {
-        font-size: 18px;
+        font-size: 15px;
         padding-left: 10px;
     }
     .hero3 {
@@ -323,10 +330,5 @@ footer {
     .desk_foot {
         width: 100%;
         padding-top: 20px;
-    }
-}
-@media screen and (max-width: 1200px){
-    .hero1img{
-        height: 300px;
     }
 }
