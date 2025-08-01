@@ -269,6 +269,8 @@ footer {
     .offer {
         flex-direction: column;
         padding: 10px;
+        height: 130px;
+        align-items: center;
     }
     .tick {
         font-size: 30px;
@@ -280,6 +282,7 @@ footer {
     .offer_text {
         font-size: 15px;
         padding-left: 10px;
+        align-items: center;
     }
     .hero3 {
         flex-direction: column;
