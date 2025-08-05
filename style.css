@@ -148,7 +148,25 @@ nav {
     font-size: 20px;
     padding: 5px;
 }
+ /* Companies Worked for */
+    .client_company{
+        height: 180px;
+        padding: 20px 50px;
+    }
 
+.marquee-content {
+  display: inline-block; /* Allows content to flow horizontally */
+  animation: scrollText 15s linear infinite; /* Apply the animation */
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%); /* Start at original position */
+  }
+  100% {
+    transform: translateX(-100%); /* Move completely to the left */
+  }
+}
 /* Footer section */
 
 footer {
@@ -335,5 +353,10 @@ footer {
     .desk_foot {
         width: 100%;
         padding-top: 20px;
+    }
+     /* Companies Worked for */
+    .client_company{
+        height: 120px;
+        padding: 10px 25px;
     }
 }
