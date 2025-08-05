@@ -153,20 +153,16 @@ nav {
         height: 180px;
         padding: 20px 50px;
     }
+    .marquee-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+        animation: scroll-left 0s linear infinite;
+    }
 
-.marquee-content {
-  display: inline-block; /* Allows content to flow horizontally */
-  animation: scrollText 15s linear infinite; /* Apply the animation */
-}
 
-@keyframes scrollText {
-  0% {
-    transform: translateX(0%); /* Start at original position */
-  }
-  100% {
-    transform: translateX(-100%); /* Move completely to the left */
-  }
-}
+
 /* Footer section */
 
 footer {
